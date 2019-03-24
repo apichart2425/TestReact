@@ -1,8 +1,13 @@
+
+
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './Component/Navbar';
 import Screen from './Component/Screen';
+import Login from './Component/Login';
+import Profile from './Component/Profile';
+
 
 class App extends Component {
   constructor() {
