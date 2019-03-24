@@ -12,12 +12,16 @@ import { BrowserRouter, Link, Switch, Route, Router } from 'react-router-dom';
 
 import Login from '../src/Component/Login';
 import Profile from './Component/Profile';
+import Customer from './Component/Customer';
+
 
 const AppWithRouter = () => (
   <BrowserRouter>
       <Route exact path="/" component={App} />
       <Route exact path="/login" component={Login} />
       <Route exact path="/profile" component={Profile} />
+      <Route exact path="/customer" component={Customer} />
+
   </BrowserRouter>
 )
 

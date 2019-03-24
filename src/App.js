@@ -26,21 +26,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar tact="Pack Apichart" />
-        <Viewter />
-        <ContentX />
-        <Screen />
-        <div>
-          <h1>Message</h1>
-          <p>{this.state.message}</p>
-          <button onClick={this.changeMessage}>{this.state.message}</button><br />
-        </div>
-        <div>
-          <h1>Data</h1>
-          <button onClick={this.insertdata}>insert</button>
-          <p>{this.state.data}</p>
-          <input type="text" onChange={this.onChange.bind(this)} />
-          <h1>Text: {this.state.type}</h1>
-        </div>
+        <Profile></Profile>
       </div>
     );
   }
