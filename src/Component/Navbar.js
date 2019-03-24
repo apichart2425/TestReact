@@ -15,7 +15,7 @@ class Navbar extends Component {
                             {/* <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a> */}
                             <Link to="/" className="nav-item nav-link active">Home</Link>
                             <Link to="/login" className="nav-item nav-link active">login</Link>
-                            <Link to="/profile" className="nav-item nav-link active">Profile</Link>
+                            {/* <Link to="/profile" className="nav-item nav-link active">Profile</Link> */}
                             <Link to="/customer" className="nav-item nav-link active">Customer</Link>
                             <Link to="/product" className="nav-item nav-link active">Product</Link>
 
