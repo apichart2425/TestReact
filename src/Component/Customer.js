@@ -11,7 +11,8 @@ class Profile extends Component {
         return (
             <div>
              <Navbar/>
-                <div className="contain my-5">
+                <div className="container my-5">
+                    <h1>รายชื่อลูกค้า</h1>
                     <div>
                         <table class="table table-striped">
                             <thead>

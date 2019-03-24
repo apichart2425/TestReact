@@ -5,14 +5,12 @@ input::placeholder {
 html {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     height: 100vh;
-    /* background: #F5F6F7; */
-    /* color: #5B5A5A; */
+
     font-size: 12px;
     font-weight: 200;
 }
 body {
     background-image: url("https://www.kaazip.com/wp-content/uploads/2017/06/bg.jpg");
-    /* background-color: #cccccc; */
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
@@ -25,7 +23,7 @@ a {
     color: whitesmoke;
 }
 
-.container {
+.containerLogin {
     position: relative;
     width: 380px;
     height: 545px;

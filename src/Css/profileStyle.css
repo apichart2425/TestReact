@@ -1,8 +1,25 @@
-.contain{
+/* .contain{
     position: relative;
     width: 80%;
     height: 80vh;
     margin: 0 auto;
     border: 1px solid #EEEEEE;
     box-shadow: 0 0 8px 2px #ccc;
+} */
+h1{
+    color: black
 }
+.fontSize{
+    font-size: 20px;
+}
+table, th, td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  .img_profile{
+      width: 30vh;
+      height: 30vh;
+  }
+  .paddingZero{
+      padding: 0;
+  }
