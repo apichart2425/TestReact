@@ -13,6 +13,10 @@ import { BrowserRouter, Link, Switch, Route, Router } from 'react-router-dom';
 import Login from '../src/Component/Login';
 import Profile from './Component/Profile';
 import Customer from './Component/Customer';
+import Product from './Component/Product';
+import EditProduct from './Component/EditProduct';
+
+
 
 
 const AppWithRouter = () => (
@@ -21,6 +25,9 @@ const AppWithRouter = () => (
       <Route exact path="/login" component={Login} />
       <Route exact path="/profile" component={Profile} />
       <Route exact path="/customer" component={Customer} />
+      <Route exact path="/Product" component={Product} />
+      <Route exact path="/edit&product" component={EditProduct} />
+
 
   </BrowserRouter>
 )

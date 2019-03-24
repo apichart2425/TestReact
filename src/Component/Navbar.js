@@ -17,6 +17,7 @@ class Navbar extends Component {
                             <Link to="/login" className="nav-item nav-link active">login</Link>
                             <Link to="/profile" className="nav-item nav-link active">Profile</Link>
                             <Link to="/customer" className="nav-item nav-link active">Customer</Link>
+                            <Link to="/product" className="nav-item nav-link active">Product</Link>
 
                             {/* <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> */}
                         </div>

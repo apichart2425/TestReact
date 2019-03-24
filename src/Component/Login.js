@@ -15,7 +15,8 @@ class Login extends Component {
                         <form>
                             <input type="text" placeholder="Email" />
                             <input type="password" placeholder="Password" />
-                            <a href="#" className="text-light">Forgot password?</a>
+                            {/* <a href="#" className="text-light">Forgot password?</a> */}
+                            <br></br>
                             <input type="submit" value="Sign In" />
                         </form>
                         {/* <a href="/" className="textRight">Home</a> */}
